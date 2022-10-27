@@ -1,0 +1,6 @@
+* Mapas mentales
+
+Archivos importantes:
+- =madrid-destino.json=, los datos de la estructura en formato JSON.
+- =madrid-destino-d3js.html=, el ejercicio de =opml2json= que sigue el de Mike Bostok con [[https://d3js.org][D3js]]
+- =madrid-destino-pintorajs.html=, el mapa mental con [[https://pintorajs.vercel.app/][Pintora.js]]

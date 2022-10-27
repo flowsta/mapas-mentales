@@ -1,0 +1,118 @@
+{
+    "name": "Madrid- Destino",
+    "children": [
+	{
+	"name": "Presidente"
+    },
+	{
+	"name": "Consejero Delegado"
+    },
+	{
+	"name": "Dirección General de Contenidos y espacios culturales",
+	"children": [
+	    {
+	    "name": "Actvidades culturales"
+	}
+	]
+    },
+	{
+	"name": "Departamentos",
+	"children": [
+	    {
+	    "name": "Financiero y ventas",
+	    "children": [
+		{"name": "Presupuestos y control financiero"},
+		{"name": "Administración y encomiendas"},
+		{"name": "Ventas y patrocinio"},
+		{"name": "Alquileres"}
+	    ]
+	},
+	    {
+	    "name": "Legal",
+	    "children": [
+		{"name": "Contratación"},
+		{"name": "Protección de datos, marcas y patentes"}
+	    ]
+	},
+	    {
+	    "name": "Recursos humanos",
+	    "children": [
+		{"name": "Relaciones laborales"},
+		{"name": "Administración de personal"},
+		{"name": "Planificación, organización y prevención de riesgos"},
+		{"name": "Gestión de RRHH"}
+	    ]
+	},
+	    {
+	    "name": "Seguridad y emergencias",
+	    "children": [
+		{"name": "Seguridad"},
+		{"name": "Viabilidad técnica"},
+		{"name": "Coordinación de actividades empresariales y planes de auto promoción"},
+		{"name": "Producción de eventos"}
+	    ]
+	},
+	    {
+	    "name": "Infraestructuras",
+	    "children": [
+		{"name": "Proyectos y obras"},
+		{"name": "Mantenimiento y servicio"},
+		{"name": "Asesoramiento técnico"}
+	    ]
+	},
+	    {
+	    "name": "Coordinación General",
+	    "children": [
+		{"name": "Estrategia"},
+		{"name": "Servicios generales"},
+		{"name": "Secretaría y gestión documental, Tecnología"}
+	    ]
+	},
+	    {
+	    "name": "Comunicación y marketing",
+	    "children": [
+		{"name": "Comunicación"},
+		{"name": "Publicidad"},
+		{"name": "Identidad gráfica y audiovisual"}
+	    ]
+	},
+	    {
+	    "name": "Espacios culturales",
+	    "children": [
+		{"name": "Programación cultural"},
+		{
+		    "name": "Teatros",
+		    "children": [
+			{"name": "Teatro Español y Naves"},
+			{"name": "Teatro Fernán Gómez"},
+			{"name": "Teatro Circo Price"}
+		    ]
+		},
+		{"name": "Daoiz y Velarde"},
+		{"name": "Centro Centro"},
+		{"name": "Conde Duque"},
+		{"name": "Medialab-Prado"},
+		{
+		    "name": "Matadero",
+		    "children": [
+			{"name": "Intermediae"},
+			{"name": "Cineteca"}
+		    ]
+		}
+	    ]
+	},
+	    {
+	    "name": "Turismo",
+	    "children": [
+		{"name": "Promoción turística"},
+		{"name": "Marketing turístico y partenariado"},
+		{"name": "Madrid Convention Bureau"},
+		{"name": "Atención, información y proyectos turísticos"},
+		{"name": "Desarrollo tecnológico y audiovisual"}
+	    ]
+	}
+	]
+    }
+    ]
+}
+
