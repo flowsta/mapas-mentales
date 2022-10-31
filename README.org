@@ -5,7 +5,7 @@
 #+DESCRIPTION: Cómo crear mapas mentales con Orgmode
 #+DATE: <2022-10-31 Mon>
 #+EMAIL: adolflow@infotics.es
-#+OPTIONS: toc:t num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
 #+LATEX_HEADER: \usepackage[english]{babel}
 #+LATEX_HEADER: \addto\captionsenglish{\renewcommand{\contentsname}{{\'I}ndice}}
 #+OPTIONS: ^:nil num:nil
