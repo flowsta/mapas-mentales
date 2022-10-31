@@ -1,6 +1,37 @@
+#+TITLE: Mapas mentales con Orgmode
+#+AUTHOR: Adolfo Antón Bravo
+#+CATEGORY: visualizar, orgmode
+#+TAGS: d3js, org2opml, opml2json, d3js, pintorajs, plantuml, uml
+#+DESCRIPTION: Cómo crear mapas mentales con Orgmode
+#+DATE: <2022-10-31 Mon>
+#+EMAIL: adolflow@infotics.es
+#+OPTIONS: toc:t num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+LATEX_HEADER: \usepackage[english]{babel}
+#+LATEX_HEADER: \addto\captionsenglish{\renewcommand{\contentsname}{{\'I}ndice}}
+#+OPTIONS: ^:nil num:nil
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:t
+#+OPTIONS: reveal_mathjax:t reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+REVEAL_MARGIN: 0.1
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_TRANS: linear
+#+REVEAL_THEME: sky
+#+REVEAL_HLEVEL: 2
+#+REVEAL_HEAD_PREAMBLE: <meta name="description" content="Herramientas de Scraping de PDF y Web.">
+#+REVEAL_POSTAMBLE: <p> Creado por adolflow. </p>
+#+REVEAL_PLUGINS: (highlight notes)
+#+REVEAL_EXTRA_CSS: file:///home/flow/Documentos/software/reveal.js/css/reveal.css
+#+REVEAL_ROOT: file:///home/flow/Documentos/software/reveal.js/
+#+SETUPFILE: https://raw.githubusercontent.com/fniessen/org-html-themes/master/org/theme-readtheorg.setup
+#+EXPORT_FILE_NAME: index
+
 * Mapas mentales
 
-Archivos importantes:
-- =madrid-destino.json=, los datos de la estructura en formato JSON.
-- =madrid-destino-d3js.html=, el ejercicio de =opml2json= que sigue el de Mike Bostok con [[https://d3js.org][D3js]]
-- =madrid-destino-pintorajs.html=, el mapa mental con [[https://pintorajs.vercel.app/][Pintora.js]]
+Repositorio que sirve para guardar los archivos que sirven para la elaboración de este artículo: https://infotics.es/articulo/mapas-mentales-con-orgmode/
+
+** Archivos importantes:
+- =d3js.html=, un ejemplo de =opml2json= que sigue el de Mike Bostok con [[https://d3js.org][D3js]] y que se puede ver [[https://project.infotics.es/mapas-mentales/d3js.html][aquí]]
+- =pintorajs.html=, el mapa mental con [[https://pintorajs.vercel.app/][Pintora.js]] que se puede ver [[https://project.infotics.es/mapas-mentales/pintorajs.html][aquí]]
+- =madrid-destino.json=, los datos de la estructura en formato JSON para =d3js.html=
+- =madrid-destino-org=, los datos en orgmode para =pintorajs.html= y =plantuml=.
